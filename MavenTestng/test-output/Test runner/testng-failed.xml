@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test runner]" parallel="tests">
+  <test name="Cucumber with Testng2(failed)" parallel="tests">
+    <classes>
+      <class name="StepDef.TestRunnerClass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- StepDef.TestRunnerClass -->
+    </classes>
+  </test> <!-- Cucumber with Testng2(failed) -->
+  <test name="Cucumber with Testng(failed)" parallel="tests">
+    <classes>
+      <class name="StepDef.TestRunnerClass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- StepDef.TestRunnerClass -->
+    </classes>
+  </test> <!-- Cucumber with Testng(failed) -->
+</suite> <!-- Failed suite [Test runner] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [StepDef.TestRunnerClass]" parallel="classes">
+  <test name="Command line test(failed)" parallel="classes">
+    <classes>
+      <class name="StepDef.TestRunnerClass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- StepDef.TestRunnerClass -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [StepDef.TestRunnerClass] -->

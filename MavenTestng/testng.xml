@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test runner" parallel='tests'>
+<test name="Cucumber with Testng">
+    <classes>
+        <class name="StepDef.TestRunnerClass"/>
+    </classes>
+</test>
+
+
+<test name="Cucumber with Testng2">
+    <classes>
+        <class name="StepDef.TestRunnerClass"/>
+    </classes>
+</test>
+ 
+</suite>
