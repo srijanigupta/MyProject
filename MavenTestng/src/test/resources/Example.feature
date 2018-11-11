@@ -1,4 +1,4 @@
-Title of your feature
+of your feature
   I want to use this template for my feature file
 
   Scenario: Customer_flight_booking_Customer books a flight for one-way
